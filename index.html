@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📘 Smart Student Dashboard</h1>
+        <p id="infoText">Click buttons to interact with the page</p>
+
+        <div class="card" id="cardBox">
+            <h2 id="cardTitle">Welcome Student 👋</h2>
+            <p id="cardContent">This content will change dynamically using DOM & jQuery.</p>
+        </div>
+
+        <div class="buttons">
+            <button onclick="changeText()">Change Text</button>
+            <button id="hideBtn">Hide</button>
+            <button id="showBtn">Show</button>
+            <button id="toggleBtn">Toggle</button>
+            <button id="animateBtn">Animate</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+  </body>
+</html>
